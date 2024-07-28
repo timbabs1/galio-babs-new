@@ -94,7 +94,7 @@ function Input({
         {left && !right && iconInstance}
         <TextInput
           ref={onRef}
-          style={inputStyles}
+          style={[inputStyles, { paddingTop: 0 }]}
           keyboardType={type}
           secureTextEntry={isPassword}
           placeholderTextColor={placeholderTextColor}
