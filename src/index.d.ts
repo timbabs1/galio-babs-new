@@ -8,7 +8,7 @@ import {
   TextInputProps,
 } from 'react-native';
 
-declare module 'galio-framework' {
+declare module 'galio-framework-babs-new' {
   type IconFamilyType =
     | 'Galio'
     | 'zocial'
